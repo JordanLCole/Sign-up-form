@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
-p, h1 {
-    font-family: 'Montserrat', sans-serif;
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem
+}
+
+p {
+    text-align: center;
+}
+
+#sidebar-image {
+    width: 30vw;
+}
+
+form {
+    padding: 10rem;
+    max-width: 20vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
 }

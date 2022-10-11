@@ -5,10 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Sign-up Form</title>
 </head>
 <body>
-    <h1>Hello World</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quaerat totam itaque quisquam a voluptatem blanditiis quia saepe ratione ea. Perferendis dolor dolore laborum eaque a obcaecati nobis porro vitae.</p>
+    <div class="sidebar">
+        <img src="./Assets/Images/kristaps-ungurs-773P4hvc-BQ-unsplash.jpg" alt="forest scene" id="sidebar-image">
+
+    </div>
+    <div class="form-container">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, commodi quam molestias quod praesentium recusandae voluptatum magni, necessitatibus reiciendis aliquam dolores sed itaque dicta minima, ea ullam reprehenderit sint nulla.
+        </p>
+        <form action="./example.com" method="post">
+            <label for="first_name">FIRST NAME</label>
+            <input type="text" name="first_name" id="first_name" placeholder="Jonny">
+            <label for="last_name">LAST NAME</label>
+            <input type="text" name="last_name" id="last_name" placeholder="Bairstow">
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" id="email">
+            <label for="phone_num">PHONE NUMBER</label>
+            <input type="number" name="phone_num" id="phone_num">
+            <label for="password">PASSWORD</label>
+            <input type="password" name="password" id="password">
+            <label for="confirm_pass">CONFIRM PASSWORD</label>
+            <input type="password" name="" id="confirm_pass">
+            <button type="submit">Sign-up!</button>
+        </form>
+    </div>
+    <script src="./app.js"></script>
 </body>
 </html>
