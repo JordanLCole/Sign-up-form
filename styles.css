@@ -17,7 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   background-image: url("https://images.unsplash.com/photo-1663483496520-fa1b631de5b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
-  max-width: 40vw;
+  width: 40vw;
   background-size: cover;
 }
 
@@ -27,6 +27,8 @@ body {
   opacity: 0.3;
   color: white;
   font-family: "Montserrat";
+  font-size: 4rem;
+  font-weight: 900;
   text-align: center;
 }
 
