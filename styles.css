@@ -93,6 +93,14 @@ input {
   border-radius: 8px;
 }
 
+input:valid {
+  border-color: green;
+}
+
+input:invalid {
+  border-color: red;
+}
+
 label {
   font-family: "Montserrat";
   border-radius: 8px;
