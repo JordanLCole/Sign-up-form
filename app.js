@@ -13,3 +13,5 @@ console.log(password);
 
 password.onchange = validatePassword;
 confirmPassword.onkeyup = validatePassword;
+
+//comment
